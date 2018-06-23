@@ -3,8 +3,7 @@ require_relative './class_methods_module.rb'
 require_relative './fancy_dance.rb'
 
 class Kid
-    extend fancy_dance
-
+    extend FancyDance
     attr_accessor :name
 
     def initiazlize(name)
